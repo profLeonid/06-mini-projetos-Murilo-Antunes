@@ -109,6 +109,22 @@ button:hover {
   justify-content: center;
 }
 
+.resultado.baixo{
+  border: 2px solid #14532d;
+  box-shadow: 0px 0px 8px #14532d;
+}
+
+.resultado.medio{
+  border: 2px solid #713f12;
+  box-shadow: 0px 0px 8px #713f12;
+}
+
+.resultado.alto{
+  border: 2px solid #7f1d1d;
+  box-shadow: 0px 0px 8px #7f1d1d;
+}
+
+
 footer {
   display: flex;
   align-items: flex-end;
