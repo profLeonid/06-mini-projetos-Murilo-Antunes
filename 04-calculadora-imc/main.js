@@ -1,6 +1,7 @@
 'use strict'
 const peso = document.getElementById('peso')
 const altura = document.getElementById('altura')
+const nome = document.getElementById('nome')
 const resultado = document.getElementById('resultado')
 
 function calcularIMC(){
@@ -27,6 +28,8 @@ function calcularIMC(){
         resultado.textContent = 'Obesidade grau III'
         resultado.classList.add('grau3')
     }
+
+    nome.focus()
 }
 
 function removerClasse(){
