@@ -9,6 +9,7 @@ function calcularDesconto() {
 
     if(validacao){
         let conta = n1.value - ((n1.value / 100) * n2.value)
+        let desconto = n1.value - conta
 
         removerClasse()
         if(n2.value < 5){
@@ -19,7 +20,7 @@ function calcularDesconto() {
             resultado.classList.add('alto')
         }
     
-        resultado.textContent = conta.toFixed(2)
+        resultado.textContent = `${desconto.toFixed(2)} -> ${conta.toFixed(2)}` 
         n1.focus()
         console.log(resultado.value)
     }
