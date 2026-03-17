@@ -34,7 +34,7 @@ function validarVazio(item){
     const itemFormat = String(item)
     console.log(itemFormat)
     if(itemFormat.trim() === ""){
-        
+        alert('Preço ou Desconto está vazio')
         return false
     }else{
         return true
@@ -52,7 +52,7 @@ function validarNumero(n1, n2){
             return true
         }
     }else{
-        alert('Preço ou Desconto está vazio')
+
         return false
     }
 }
